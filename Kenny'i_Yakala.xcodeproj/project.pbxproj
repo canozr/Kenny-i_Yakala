@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		368586D724672C79005914D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368586D624672C79005914D9 /* AppDelegate.swift */; };
+		368586D924672C79005914D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368586D824672C79005914D9 /* SceneDelegate.swift */; };
+		368586DB24672C79005914D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368586DA24672C79005914D9 /* ViewController.swift */; };
+		368586DE24672C79005914D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368586DC24672C79005914D9 /* Main.storyboard */; };
+		368586E024672C7A005914D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368586DF24672C7A005914D9 /* Assets.xcassets */; };
+		368586E324672C7A005914D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368586E124672C7A005914D9 /* LaunchScreen.storyboard */; };
+		368586EE24672C7A005914D9 /* Kenny_i_YakalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368586ED24672C7A005914D9 /* Kenny_i_YakalaTests.swift */; };
+		368586F924672C7A005914D9 /* Kenny_i_YakalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368586F824672C7A005914D9 /* Kenny_i_YakalaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		368586EA24672C7A005914D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 368586CB24672C79005914D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368586D224672C79005914D9;
+			remoteInfo = "Kenny'i_Yakala";
+		};
+		368586F524672C7A005914D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 368586CB24672C79005914D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368586D224672C79005914D9;
+			remoteInfo = "Kenny'i_Yakala";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		368586D324672C79005914D9 /* Kenny'i_Yakala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kenny'i_Yakala.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		368586D624672C79005914D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		368586D824672C79005914D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		368586DA24672C79005914D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		368586DD24672C79005914D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		368586DF24672C7A005914D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		368586E224672C7A005914D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		368586E424672C7A005914D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368586E924672C7A005914D9 /* Kenny'i_YakalaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kenny'i_YakalaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		368586ED24672C7A005914D9 /* Kenny_i_YakalaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kenny_i_YakalaTests.swift; sourceTree = "<group>"; };
+		368586EF24672C7A005914D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368586F424672C7A005914D9 /* Kenny'i_YakalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kenny'i_YakalaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		368586F824672C7A005914D9 /* Kenny_i_YakalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kenny_i_YakalaUITests.swift; sourceTree = "<group>"; };
+		368586FA24672C7B005914D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		368586D024672C79005914D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368586E624672C7A005914D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368586F124672C7A005914D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		368586CA24672C79005914D9 = {
+			isa = PBXGroup;
+			children = (
+				368586D524672C79005914D9 /* Kenny'i_Yakala */,
+				368586EC24672C7A005914D9 /* Kenny'i_YakalaTests */,
+				368586F724672C7A005914D9 /* Kenny'i_YakalaUITests */,
+				368586D424672C79005914D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		368586D424672C79005914D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				368586D324672C79005914D9 /* Kenny'i_Yakala.app */,
+				368586E924672C7A005914D9 /* Kenny'i_YakalaTests.xctest */,
+				368586F424672C7A005914D9 /* Kenny'i_YakalaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		368586D524672C79005914D9 /* Kenny'i_Yakala */ = {
+			isa = PBXGroup;
+			children = (
+				368586D624672C79005914D9 /* AppDelegate.swift */,
+				368586D824672C79005914D9 /* SceneDelegate.swift */,
+				368586DA24672C79005914D9 /* ViewController.swift */,
+				368586DC24672C79005914D9 /* Main.storyboard */,
+				368586DF24672C7A005914D9 /* Assets.xcassets */,
+				368586E124672C7A005914D9 /* LaunchScreen.storyboard */,
+				368586E424672C7A005914D9 /* Info.plist */,
+			);
+			path = "Kenny'i_Yakala";
+			sourceTree = "<group>";
+		};
+		368586EC24672C7A005914D9 /* Kenny'i_YakalaTests */ = {
+			isa = PBXGroup;
+			children = (
+				368586ED24672C7A005914D9 /* Kenny_i_YakalaTests.swift */,
+				368586EF24672C7A005914D9 /* Info.plist */,
+			);
+			path = "Kenny'i_YakalaTests";
+			sourceTree = "<group>";
+		};
+		368586F724672C7A005914D9 /* Kenny'i_YakalaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				368586F824672C7A005914D9 /* Kenny_i_YakalaUITests.swift */,
+				368586FA24672C7B005914D9 /* Info.plist */,
+			);
+			path = "Kenny'i_YakalaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		368586D224672C79005914D9 /* Kenny'i_Yakala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368586FD24672C7B005914D9 /* Build configuration list for PBXNativeTarget "Kenny'i_Yakala" */;
+			buildPhases = (
+				368586CF24672C79005914D9 /* Sources */,
+				368586D024672C79005914D9 /* Frameworks */,
+				368586D124672C79005914D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kenny'i_Yakala";
+			productName = "Kenny'i_Yakala";
+			productReference = 368586D324672C79005914D9 /* Kenny'i_Yakala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		368586E824672C7A005914D9 /* Kenny'i_YakalaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3685870024672C7B005914D9 /* Build configuration list for PBXNativeTarget "Kenny'i_YakalaTests" */;
+			buildPhases = (
+				368586E524672C7A005914D9 /* Sources */,
+				368586E624672C7A005914D9 /* Frameworks */,
+				368586E724672C7A005914D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				368586EB24672C7A005914D9 /* PBXTargetDependency */,
+			);
+			name = "Kenny'i_YakalaTests";
+			productName = "Kenny'i_YakalaTests";
+			productReference = 368586E924672C7A005914D9 /* Kenny'i_YakalaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		368586F324672C7A005914D9 /* Kenny'i_YakalaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3685870324672C7B005914D9 /* Build configuration list for PBXNativeTarget "Kenny'i_YakalaUITests" */;
+			buildPhases = (
+				368586F024672C7A005914D9 /* Sources */,
+				368586F124672C7A005914D9 /* Frameworks */,
+				368586F224672C7A005914D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				368586F624672C7A005914D9 /* PBXTargetDependency */,
+			);
+			name = "Kenny'i_YakalaUITests";
+			productName = "Kenny'i_YakalaUITests";
+			productReference = 368586F424672C7A005914D9 /* Kenny'i_YakalaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		368586CB24672C79005914D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = CAN;
+				TargetAttributes = {
+					368586D224672C79005914D9 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					368586E824672C7A005914D9 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 368586D224672C79005914D9;
+					};
+					368586F324672C7A005914D9 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 368586D224672C79005914D9;
+					};
+				};
+			};
+			buildConfigurationList = 368586CE24672C79005914D9 /* Build configuration list for PBXProject "Kenny'i_Yakala" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 368586CA24672C79005914D9;
+			productRefGroup = 368586D424672C79005914D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				368586D224672C79005914D9 /* Kenny'i_Yakala */,
+				368586E824672C7A005914D9 /* Kenny'i_YakalaTests */,
+				368586F324672C7A005914D9 /* Kenny'i_YakalaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		368586D124672C79005914D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368586E324672C7A005914D9 /* LaunchScreen.storyboard in Resources */,
+				368586E024672C7A005914D9 /* Assets.xcassets in Resources */,
+				368586DE24672C79005914D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368586E724672C7A005914D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368586F224672C7A005914D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		368586CF24672C79005914D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368586DB24672C79005914D9 /* ViewController.swift in Sources */,
+				368586D724672C79005914D9 /* AppDelegate.swift in Sources */,
+				368586D924672C79005914D9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368586E524672C7A005914D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368586EE24672C7A005914D9 /* Kenny_i_YakalaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368586F024672C7A005914D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368586F924672C7A005914D9 /* Kenny_i_YakalaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		368586EB24672C7A005914D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 368586D224672C79005914D9 /* Kenny'i_Yakala */;
+			targetProxy = 368586EA24672C7A005914D9 /* PBXContainerItemProxy */;
+		};
+		368586F624672C7A005914D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 368586D224672C79005914D9 /* Kenny'i_Yakala */;
+			targetProxy = 368586F524672C7A005914D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		368586DC24672C79005914D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368586DD24672C79005914D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		368586E124672C7A005914D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368586E224672C7A005914D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		368586FB24672C7B005914D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		368586FC24672C7B005914D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		368586FE24672C7B005914D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZ429S3W94;
+				INFOPLIST_FILE = "Kenny'i_Yakala/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.can.Kenny-i-Yakala";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		368586FF24672C7B005914D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZ429S3W94;
+				INFOPLIST_FILE = "Kenny'i_Yakala/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.can.Kenny-i-Yakala";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3685870124672C7B005914D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZ429S3W94;
+				INFOPLIST_FILE = "Kenny'i_YakalaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.can.Kenny-i-YakalaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kenny'i_Yakala.app/Kenny'i_Yakala";
+			};
+			name = Debug;
+		};
+		3685870224672C7B005914D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZ429S3W94;
+				INFOPLIST_FILE = "Kenny'i_YakalaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.can.Kenny-i-YakalaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kenny'i_Yakala.app/Kenny'i_Yakala";
+			};
+			name = Release;
+		};
+		3685870424672C7B005914D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZ429S3W94;
+				INFOPLIST_FILE = "Kenny'i_YakalaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.can.Kenny-i-YakalaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kenny'i_Yakala";
+			};
+			name = Debug;
+		};
+		3685870524672C7B005914D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FZ429S3W94;
+				INFOPLIST_FILE = "Kenny'i_YakalaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.can.Kenny-i-YakalaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kenny'i_Yakala";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		368586CE24672C79005914D9 /* Build configuration list for PBXProject "Kenny'i_Yakala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368586FB24672C7B005914D9 /* Debug */,
+				368586FC24672C7B005914D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368586FD24672C7B005914D9 /* Build configuration list for PBXNativeTarget "Kenny'i_Yakala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368586FE24672C7B005914D9 /* Debug */,
+				368586FF24672C7B005914D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3685870024672C7B005914D9 /* Build configuration list for PBXNativeTarget "Kenny'i_YakalaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3685870124672C7B005914D9 /* Debug */,
+				3685870224672C7B005914D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3685870324672C7B005914D9 /* Build configuration list for PBXNativeTarget "Kenny'i_YakalaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3685870424672C7B005914D9 /* Debug */,
+				3685870524672C7B005914D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 368586CB24672C79005914D9 /* Project object */;
+}
